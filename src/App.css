@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.start-screen {
+  padding-top: 100px;
+}
+
+.go-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.go-btn:hover {
+  background-color: #0056b3;
+}
+
+.card-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-buttons button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.card-container {
+  width: 500px;
+  height: 350px;
+  margin: 20px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: rgb(250, 226, 189);
+  box-shadow: 0 4px 6px 6px grey;
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+
+.card-container.flipped .card {
+  transform: rotateY(180deg);
+}
+.front, .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  backface-visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.back {
+  transform: rotateY(180deg);
+}
+.card-img{
+  max-height: 200px;
+  margin-top: 20px; 
+  object-fit: contain;
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "question": "What dog breed is shown in the picture?",
+    "answer": "Labrador",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V-vTxzZSnCfFOsGKeZubGawe9YZ5hk1s3Q&s"
+  },
+  {
+    "id": 2,
+    "question": "How many teeth does an adult dog typically have?",
+    "answer": "42",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "question": "Which dog breed is known for having a blue-black tongue?",
+    "answer": "Chow Chow",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "question": "True or False: Dogs can only see in black and white.",
+    "answer": "False",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "question": "This breed is known for its incredible speed and is often used in racing?",
+    "answer": "Greyhound",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMhQCxrTZSnPcdchdIkraPci0hGZ1e0SSeDw&s"
+  },
+  {
+    "id": 6,
+    "question": "What age is considered senior for most dogs?",
+    "answer": "Around 7 years old",
+    "image": ""
+  },
+  {
+    "id": 7,
+    "question": "Which sense is most developed in dogs?",
+    "answer": "Smell",
+    "image": ""
+  },
+  {
+    "id": 8,
+    "question": "What is the smallest dog breed in the world?",
+    "answer": "Chihuahua",
+    "image": "https://cdn05.zipify.com/YYDnbESeLAHV8CWPhokpfU5WkNo=/fit-in/3840x0/d78631cc4f3a4cfb8b2bd1859e3f3ff5/9.jpeg"
+  },
+  {
+    "id": 9,
+    "question": "Which breed is known for its wrinkled face and short muzzle?",
+    "answer": "Pug",
+    "image": ""
+  },
+  {
+    "id": 10,
+    "question": "What does it mean when a dog wags its tail to the right?",
+    "answer": "It usually means the dog is happy or excited.",
+    "image": ""
+  }
+]
+    
